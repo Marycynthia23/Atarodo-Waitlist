@@ -1,0 +1,257 @@
+.HowitworksContainer{
+    padding: 2% 5%;
+    background-color: #FFFCF5;
+    
+}
+.Info{
+width: 45%;
+}
+.BoldText{
+    font-family: Eczar;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 72px;
+    text-align: left;
+    margin-bottom: 10px;
+    
+}
+.SmText{
+    font-family: Archivo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 15px;
+}
+/* Container for tabs */
+.tabsContainer {
+    width: 100%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Tab Titles */
+  .tabTitles {
+    display: flex;
+    position: relative;
+
+  }
+  
+  /* Individual Tab Title */
+  .tabTitle {
+    padding: 10px 0px;
+    cursor: pointer;
+    border-radius: 4px 4px 0 0;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+    /* transition: background-color 0.3s ease; */
+    flex: 1;
+    position: relative;
+    opacity: 0.5; /* Inactive state opacity */
+
+  }
+  
+  /* .tabTitle:hover {
+    background-color: #e0e0e0;
+  } */
+
+  .StepTitle{
+font-family: Eczar;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+text-align: left;
+
+  }
+  .StepDesc{
+font-family: Archivo;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+
+  }
+  
+  /* Active Tab with underline border */
+  .active {
+    font-weight: bold;
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+    opacity: 1; /* Full opacity for active tab */
+  }
+
+  /* Inactive Tab */
+.inactive {
+    opacity: 0.5; /* Reduced opacity for inactive tabs */
+  }
+  
+  .activeBorder {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #0a0a0a; /* Active border color */
+    border-radius: 4px;
+  }
+  
+  /* Content for the active tab */
+  .tabContent {
+    padding-top: 20px;
+    background-color: #FFFCF5;
+    text-align: center;
+    border-top: 4px solid #f2f2f2; /* Active border under the tab */
+  }
+  
+  /* Image for each step */
+  .imageContainer img {
+    max-width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+
+/* Laptops (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+  .Info {
+      width: 50%;
+  }
+
+  .BoldText {
+      font-size: 56px;
+      line-height: 64px;
+  }
+
+  .SmText {
+      font-size: 18px;
+      line-height: 28px;
+  }
+
+  .StepTitle {
+      font-size: 30px;
+  }
+
+  .StepDesc {
+      font-size: 18px;
+  }
+
+  .imageContainer img {
+      width: 100%;
+      height: auto;
+  }
+}
+
+/* Desktop (min-width: 1025px) */
+@media screen and (min-width: 1025px) {
+  .HowitworksContainer {
+      padding: 2% 5%;
+  }
+
+  .Info {
+      width: 45%;
+  }
+
+  .BoldText {
+      font-size: 64px;
+      line-height: 72px;
+  }
+
+  .SmText {
+      font-size: 20px;
+      line-height: 30px;
+  }
+
+  .StepTitle {
+      font-size: 32px;
+  }
+
+  .StepDesc {
+      font-size: 20px;
+  }
+
+  .imageContainer img {
+      max-width: 100%;
+      height: auto;
+  }
+}
+/* Tablets (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .HowitworksContainer {
+      padding: 4% 3%;
+  }
+
+  .Info {
+      width: 100%;
+      text-align: center;
+  }
+
+  .BoldText {
+      font-size: 48px;
+      line-height: 56px;
+  }
+
+  .SmText {
+      font-size: 18px;
+      line-height: 28px;
+  }
+
+  .StepTitle {
+      font-size: 28px;
+      /* text-align: center; */
+  }
+
+  .StepDesc {
+      font-size: 18px;
+      /* text-align: center; */
+  }
+.tabContent{
+  display: none;
+}
+  .imageContainer img {
+      width: 100%;
+      height: auto;
+  }
+}
+  /* Mobile (max-width: 420px) */
+  @media screen and (max-width: 420px) {
+    .HowitworksContainer {
+        padding: 5% 4%;
+    }
+  
+    .Info {
+        width: 100%;
+    }
+  
+    .BoldText {
+        font-size: 32px;
+        line-height: 40px;
+        /* text-align: center; */
+    }
+  
+    .SmText {
+        font-size: 16px;
+        line-height: 24px;
+        /* text-align: center; */
+    }
+  
+    .tabTitles {
+        flex-direction: column;
+    }
+  
+    .StepTitle {
+        font-size: 24px;
+        /* text-align: center; */
+    }
+  
+    .StepDesc {
+        font-size: 16px;
+        /* text-align: center; */
+    }
+  
+    .tabContent {
+        padding-top: 10px;
+        display: none;
+    }
+  
+    .imageContainer img {
+        width: 100%;
+        height: auto;
+    }
+  }

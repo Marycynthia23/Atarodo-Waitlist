@@ -1,0 +1,223 @@
+.PricingContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+    
+}
+.Banner{
+
+    width: 100%;
+    background: url('../../images/bluebg.png');
+    background-size: contain;
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+}
+.BlueBgInfo{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+.BoldText{
+    font-family: Eczar;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 72px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.SmText{
+    font-family: Archivo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    
+}
+.WhiteBgInfo{
+    width: 922px;
+    height: 308.78px;
+    padding: 10px 20px;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 12px;
+    margin-top: 50px;
+    
+}
+.messageicon{
+    width: 60.48px;
+    height: 48.78px;
+    gap: 0px;
+    border: 4px 0px 0px 0px;
+    opacity: 0px;
+    margin-bottom: 10px;
+}
+.Price{
+    font-family: Eczar;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 0;
+    
+}
+.PriceInfo{
+    font-family: Archivo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 0;
+    
+}
+.OldPrice{
+color: #595959;
+}
+.DivBox{
+
+}
+.SubTitle{
+    font-family: Archivo;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    
+}
+.ListContainer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ListBox{
+    
+}
+.List{
+    display: flex;
+    column-gap: 8px;
+list-style-type: none;
+margin-bottom: 10px;
+}
+.checkicon{
+    width: 24px;
+height: 24px;
+}
+
+/* Laptops (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    .WhiteBgInfo {
+        width: 90%;
+    }
+
+    .Price {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .PriceInfo {
+        font-size: 18px;
+    }
+}
+/* Tablets (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .PricingContainer {
+        padding: 4% 3%;
+    }
+
+    .BoldText {
+        font-size: 36px;
+        line-height: 56px;
+    }
+
+    .SmText {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .WhiteBgInfo {
+        width: 80%;
+        height: auto;
+    }
+
+    .Price {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .PriceInfo {
+        font-size: 18px;
+    }
+
+    .ListContainer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .List {
+        font-size: 16px;
+    }
+
+    .checkicon {
+        width: 22px;
+        height: 22px;
+    }
+}
+/* Mobile (max-width: 420px) */
+@media screen and (max-width: 420px) {
+    .PricingContainer {
+        padding: 5% 2%;
+    }
+.Banner{
+    height: auto;
+
+}
+    .BlueBgInfo {
+        width: 100%;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .BoldText {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .SmText {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .WhiteBgInfo {
+        width: 60%;
+        height: auto;
+        /* padding: 0; */
+        margin-top: 0;
+    }
+
+    .Price {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .PriceInfo {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .ListContainer {
+        /* flex-direction: column; */
+        /* align-items: center; */
+    }
+
+    .List {
+        font-size: 14px;
+    }
+
+    .checkicon {
+        width: 20px;
+        height: 20px;
+    }
+}
+

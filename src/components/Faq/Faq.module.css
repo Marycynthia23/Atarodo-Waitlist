@@ -1,0 +1,84 @@
+.FaqContainer{
+ padding: 2% 5%;
+}
+.BoldText{
+    font-family: Eczar;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 72px;
+    text-align: left;
+    margin-bottom: 0;
+    
+}
+.SmText{
+    font-family: Archivo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 5px;
+    
+}
+.accordionContainer {
+    width: 100%;
+    margin: auto;
+
+  }
+  
+  .accordionItem {
+    margin-bottom: 10px;
+    /* height: 78px; */
+padding: 14px 20px 14px 20px;
+gap: 16px;
+border-radius: 12px 0px 0px 0px;
+opacity: 0px;
+background-color: #FFFFFF;
+border: none;
+  }
+  
+  .accordionTitle {
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Archivo;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+
+  }
+  
+  .accordionTitle:hover {
+    background-color: #fff;
+  }
+  
+  .accordionContent {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    background-color: #fff;
+    padding: 0 10px;
+  }
+  
+  .accordionContent.open {
+    max-height: 100px; /* Adjust based on content */
+    padding: 10px;
+  }
+  
+  .active {
+    background-color: #e7e7e7;
+  }
+  
+  .icon {
+    transition: transform 0.3s ease;
+    font-size: 14px;
+  }
+  
+  .rotate {
+    transform: rotate(180deg);
+  }

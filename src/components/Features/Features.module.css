@@ -1,0 +1,201 @@
+.FeaturesContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10% 5% 5% 5%;
+    background: url('../../images/bgrectangle.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+;
+    
+}
+.Left{
+
+}
+.BoldText{
+    font-family: Eczar;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 72px;
+    text-align: left;
+    
+}
+.MediumText{
+    font-family: Archivo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    
+}
+.Ul{
+    padding-left: 0;
+}
+.Lists{
+list-style-type: none;
+margin-left: 0;
+}
+.ListHeader{
+    font-family: Eczar;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    margin-bottom: 0;
+    
+}
+.ListSmText{
+    font-family: Archivo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 0;
+}
+.Divider{
+width: 566px;
+
+}
+.Right{
+
+}
+.featuremockup{
+    width: 609px;
+    height: 690px;
+    
+}
+
+/* Laptops (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    .Left, .Right {
+        width: 50%;
+    }
+
+    .BoldText {
+        font-size: 54px;
+        line-height: 64px;
+    }
+
+    .MediumText {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .ListHeader {
+        font-size: 30px;
+    }
+
+    .Divider {
+        width: 90%;
+    }
+
+    /* .featuremockup {
+        width: 500px;
+        height: auto;
+    } */
+}
+
+/* Desktop (min-width: 1025px) */
+@media screen and (min-width: 1025px) {
+    .FeaturesContainer {
+        padding: 10% 5%;
+    }
+
+    /* .Left, .Right {
+        width: 50%;
+    } */
+
+    .BoldText {
+        font-size: 64px;
+    }
+
+    /* .featuremockup {
+        width: 609px;
+        height: 690px;
+    } */
+}
+
+/* Tablets (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .FeaturesContainer {
+        flex-direction: column;
+        padding: 10% 4%;
+    }
+
+    .Left, .Right {
+        width: 100%;
+    }
+
+    .BoldText {
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .MediumText {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .ListHeader {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .ListSmText {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .Divider {
+        width: 100%;
+    }
+
+    .featuremockup {
+        width: 100%;
+        height: auto;
+    }
+}
+/* Mobile (max-width: 420px) */
+@media screen and (max-width: 420px) {
+    .FeaturesContainer {
+        flex-direction: column;
+        padding: 10% 4%;
+        text-align: center;
+    }
+
+    .Left, .Right {
+        width: 100%;
+    }
+
+    .BoldText {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .MediumText {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .ListHeader {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .ListSmText {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .Divider {
+        width: 100%;
+    }
+
+    .featuremockup {
+        width: 100%;
+        height: auto;
+    }
+}
+

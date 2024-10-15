@@ -1,0 +1,278 @@
+.HeroContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+    background-color: #FFFCF5;
+    margin-top: 70px;
+}
+.Left{ 
+width: 47%;
+
+}
+.BoldText{
+    font-family: Eczar;
+    font-size: 128px;
+    font-weight: 700;
+    line-height: 128px;
+    text-align: left;
+    /* overflow: hidden; */
+}
+.ColoredWord{
+color: #65A13A;
+ position: absolute;
+  animation: coloredText 16s infinite ease-in-out; 
+    
+}
+ .ColoredWord:nth-child(1) {
+  animation-delay: -16s;
+}
+.ColoredWord:nth-child(2) {
+  animation-delay: -14s;
+}
+.ColoredWord:nth-child(3) {
+  animation-delay: -12s;
+}
+.ColoredWord:nth-child(4) {
+  animation-delay: -10s;
+}
+.ColoredWord:nth-child(5) {
+  animation-delay: -6s;
+}
+.ColoredWord:nth-child(6) {
+  animation-delay: -4s;
+}
+@keyframes ColoredWord {
+  0%,
+  5%,
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+  20%,
+  80% {
+    filter: blur(1rem);
+    opacity: 0;
+  }
+} 
+.MediumText{
+    font-family: Archivo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #595959;
+    
+}
+.JoinBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+width: 290px;
+height: 48px;
+border-radius: 8px;
+background-color: #65A13A;
+color: #fff;
+
+
+
+}
+.BtnTagContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.herotag{
+    width: 363px;
+
+    }
+.Right{
+    /* width: 55%; */
+}
+.heromockup{
+width: 603px;
+height: 684.84px;
+}
+@media screen and (max-width: 420px) {
+    .HeroContainer{
+        display: flex;
+        flex-direction: column;
+        padding: 0% 5%;
+        background-color: #FFFCF5;
+        margin-top: 70px;
+    }
+    .Left{ 
+    width: 100%;
+    
+    }
+    .BoldText{
+        font-family: Eczar;
+        font-size: 80px;
+        line-height: 90px;
+        text-align: left;
+    }
+    .ColoredWord{
+    color: #65A13A;
+        
+    }
+    .MediumText{
+        font-family: Archivo;
+        font-size: 20px;
+        text-align: left;
+        
+    }
+    .JoinBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    width: 183px;
+    height: 38px;
+    border-radius: 8px;
+    background-color: #65A13A;
+    color: #fff;
+    
+    }
+    
+    .Right{
+        /* width: 55%; */
+    }
+    .heromockup{
+    width: auto;
+    }
+}
+/* Laptops (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+  .HeroContainer {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 2% 4%;
+  }
+
+  .Left {
+      width: 50%;
+  }
+
+  .BoldText {
+      font-size: 90px;
+      line-height: 120px;
+  }
+
+  .MediumText {
+      font-size: 18px;
+      line-height: 28px;
+  }
+
+  .JoinBtn {
+      width: 230px;
+      height: 45px;
+  }
+  .herotag{
+    width: 45%;
+  }
+
+  .Right {
+      width: 50%;
+  }
+
+  .heromockup {
+      width: 500px;
+      height: auto;
+  }
+}
+
+/* Desktop (min-width: 1025px) */
+@media screen and (min-width: 1025px) {
+  .HeroContainer {
+      padding: 2% 5%;
+  }
+
+  .Left {
+      width: 47%;
+  }
+
+  .BoldText {
+      font-size: 128px;
+  }
+
+  .heromockup {
+      width: 603px;
+      height: 684.84px;
+  }
+}
+/* Mobile (max-width: 420px) */
+@media screen and (max-width: 420px) {
+  .HeroContainer {
+      flex-direction: column;
+      padding: 0% 5%;
+      margin-top: 70px;
+  }
+
+  .Left {
+      width: 100%;
+  }
+
+  .BoldText {
+      font-size: 64px;
+      line-height: 72px;
+  }
+
+  .MediumText {
+      font-size: 18px;
+      line-height: 30px;
+  }
+
+  .JoinBtn {
+      width: 100%;
+      height: 38px;
+  }
+.herotag{
+  display: none;
+}
+  .heromockup {
+      width: 100%;
+      height: auto;
+  }
+}
+
+/* Tablets (max-width: 768px) */
+@media screen and (max-width: 768px) {
+  .HeroContainer {
+      flex-direction: column;
+      padding: 0% 5%;
+  }
+
+  .Left {
+      width: 100%;
+      text-align: center;
+  }
+
+  .BoldText {
+      font-size: 64px;
+      line-height: 92px;
+  }
+
+  .MediumText {
+      font-size: 18px;
+      line-height: 25px;
+  }
+
+  .JoinBtn {
+      width: 100%;
+      height: 40px;
+  }
+  .herotag{
+    display: none;
+  }
+  .Right {
+      width: 100%;
+      text-align: center;
+  }
+
+  .heromockup {
+      width: 80%;
+      height: auto;
+  }
+}
+

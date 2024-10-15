@@ -1,0 +1,100 @@
+.HeaderContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+    background-color: #FFFCF5;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 90%; 
+    overflow: hidden;
+}
+.logo{
+width: 104.67px;
+height:32px;
+gap: 10px;
+opacity: 0px;
+
+}
+.JoinBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+width: 183px;
+height: 38px;
+border-radius: 8px;
+background-color: #65A13A;
+color: #fff;
+
+}
+
+/* Laptops (max-width: 1024px) */
+@media screen and (max-width: 1024px) {
+    .HeaderContainer {
+        padding: 2% 4%;
+    }
+
+    .logo {
+        width: 100px;
+        height: 30px;
+    }
+
+    .JoinBtn {
+        width: 170px;
+        height: 36px;
+    }
+}
+
+/* Desktop (min-width: 1025px) */
+@media screen and (min-width: 1025px) {
+    .HeaderContainer {
+        padding: 2% 5%;
+    }
+
+    .logo {
+        width: 104.67px;
+        height: 32px;
+    }
+
+    .JoinBtn {
+        width: 183px;
+        height: 38px;
+    }
+}
+/* Tablets (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    .HeaderContainer {
+        padding: 2% 4%;
+    }
+
+    .logo {
+        width: 90px;
+        height: 28px;
+    }
+
+    .JoinBtn {
+        width: 160px;
+        height: 34px;
+    }
+}
+
+/* Mobile (max-width: 420px) */
+@media screen and (max-width: 420px) {
+    .HeaderContainer {
+        padding: 2% 5%;
+        width: 90%; 
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 80px;
+        height: 24px;
+        margin-bottom: 10px;
+    }
+
+    .JoinBtn {
+        width: 150px;
+        height: 32px;
+    }
+}
