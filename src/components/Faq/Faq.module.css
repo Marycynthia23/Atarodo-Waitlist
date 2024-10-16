@@ -1,5 +1,5 @@
 .FaqContainer{
- padding: 2% 5%;
+ padding: 3% 5%;
 }
 .BoldText{
     font-family: Eczar;
@@ -8,7 +8,6 @@
     line-height: 72px;
     text-align: left;
     margin-bottom: 0;
-    
 }
 .SmText{
     font-family: Archivo;
@@ -17,12 +16,10 @@
     line-height: 30px;
     text-align: left;
     margin-top: 5px;
-    
 }
 .accordionContainer {
     width: 100%;
     margin: auto;
-
   }
   
   .accordionItem {

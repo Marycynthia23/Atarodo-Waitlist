@@ -1,12 +1,13 @@
 import React,{useState, useEffect} from 'react'
 import styles from "./Hero.module.css"
-import heromockup from "../../images/Herographic.png"
+import heromockup from "../../images/herobg.png"
 import herotag from "../../images/herotagg.png"
+import VideoBtn from '../../commons/VideoBtn/VideoBtn'
 
 
 const Hero = () => {
   const [wordIndex, setWordIndex] = useState(0);
-  const words = ["Yorùbá", "Igbo", "Hausa"];
+  const words = ["Yorùbá", "Igbo", "Hausa","Swahili","Afrikaans","Fula","Twi","Somali"];
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -28,8 +29,8 @@ const Hero = () => {
 
       </div>
       <div className={styles.Right}>
-        <img src={heromockup} alt="heromockup" className={styles.heromockup}/>
-
+        {/* <img src={heromockup} alt="heromockup" className={styles.heromockup}/> */}
+        <VideoBtn/>
       </div>
     </div>
   )

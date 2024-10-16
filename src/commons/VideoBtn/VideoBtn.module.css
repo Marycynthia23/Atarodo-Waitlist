@@ -1,0 +1,42 @@
+.communityButton {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: #FEF2CD; /* Beige background */
+    border: 2px  solid black;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .communityButton:hover {
+    background-color: #f1e9d2;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .beatingCircle {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #f8d54d; /* Yellow */
+    margin-right: 10px;
+    animation: beat 1s infinite ease-in-out;
+  }
+  .Black{
+    background-color: #000;
+    border-radius: 8px;
+    padding-top: 6px;
+    padding-right: 4px;
+  }
+  @keyframes beat {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }
+  

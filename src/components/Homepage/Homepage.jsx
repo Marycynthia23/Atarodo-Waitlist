@@ -7,6 +7,7 @@ import Pricing from '../Pricing/Pricing';
 import Testimonals from '../Testimonals/Testimonals';
 import Faq from '../Faq/Faq';
 import Footer from '../Footer/Footer';
+import Languages from '../Languages/Languages';
 
 const HomePage = () => {
   return (
@@ -16,6 +17,7 @@ const HomePage = () => {
       <Features/>
       <Howitworks/>
       <Pricing/>
+      <Languages/>
       <Testimonals/>
       <Faq/>
       <Footer/>

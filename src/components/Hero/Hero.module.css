@@ -88,11 +88,22 @@ color: #fff;
 
     }
 .Right{
-    /* width: 55%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* width: 603px; */
+height: 690px;
+background-image: url('../../images/herobg.png');
+background-position: center center;
+background-size: contain;
+background-repeat: no-repeat;
+
 }
 .heromockup{
 width: 603px;
 height: 684.84px;
+background-image: url('../../images/herobg.png');
 }
 @media screen and (max-width: 420px) {
     .HeroContainer{

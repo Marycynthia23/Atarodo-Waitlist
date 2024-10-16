@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';import styles from "./Howitworks.module.css";
-import image1 from "../../images/Video2.png"
-import image3 from "../../images/image1.png"
-import image2 from "../../images/Video1.png"
+import image1 from "../../images/stepone.png"
+import image3 from "../../images/stepthree.png"
+import image2 from "../../images/steptwo.png"
 const Howitworks = () => {
 
   // State to track the active tab
